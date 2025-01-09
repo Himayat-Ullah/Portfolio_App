@@ -27,6 +27,7 @@ import calculator from "../proj_img/3.jpg";
 import clock from "../proj_img/4.jpg";
 import ReactTask from "../proj_img/6.jpg";
 import wordCounter from "../proj_img/7.jpg";
+import weather from "../proj_img/8.jpg";
 
 // const Home = () => {};
 
@@ -291,6 +292,23 @@ const Projects = () => {
                   JavaScript
                 </p>
               </div> */}
+            <div>
+              <div className="lg:w-52 w-52 lg:h-40 h-40 lg:ml-7 ml-10 mb-5 lg:mb-5 lg:mt-5 lg:mr-3 mt-5 mr-3 flex lg:flex lg:justify-center lg:items-center justify-center items-center lg:rounded-[10px] rounded-[10px] lg:bg-slate-800 bg-slate-800">
+                <a
+                  href="https://realweatherbycityname.netlify.app/"
+                  target="_blank"
+                >
+                  <img
+                    src={weather}
+                    alt="Notfound"
+                    className="lg:w-32 w-32 h-32 founded-full m-auto lg:h-32 lg:rounded-full lg:m-auto"
+                  />
+                </a>
+              </div>
+              <p className="lg:w-52 lg:h-10 h-10 w-40 ml-7 m-auto text-center lg:ml-7 lg:m-auto lg:text-center">
+                Weather App
+              </p>
+            </div>
             <div>
               <div className="lg:w-52 w-52 lg:h-40 h-40 lg:ml-7 ml-10 mb-5 lg:mb-5 lg:mt-5 lg:mr-3 mt-5 mr-3 flex lg:flex lg:justify-center lg:items-center justify-center items-center lg:rounded-[10px] rounded-[10px] lg:bg-slate-800 bg-slate-800">
                 <a
