@@ -1,5 +1,5 @@
 import MainNav from "./MainNav";
-import mainimg from "../img/my.jpg";
+import mainimg from "../img/myImg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { FaFreeCodeCamp } from "react-icons/fa";
